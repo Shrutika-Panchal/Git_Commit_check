@@ -21,7 +21,7 @@ def main():
     token = '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'
     
     # Set the datetime for the last check (e.g., one day ago)
-    since_datetime = (datetime.now() - timedelta(hours=240)).isoformat()
+    since_datetime = (datetime.now() - timedelta(hours=300)).isoformat()
 
     commits = get_new_commits(username, repository, token, since_datetime)
 
