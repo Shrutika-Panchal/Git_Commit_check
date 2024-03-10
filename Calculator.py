@@ -20,10 +20,10 @@ while True:
         elif choice == '3':
             print(a, "*", b, "=", multiply(a, b))
 
-        #elif choice == '4':
-            #print(a, "/", b, "=", divide(a, b))
+        elif choice == '4':
+            print(a, "/", b, "=", divide(a, b))
 
-         ## Uncomment this to deploy this feature    
+        ## Uncomment this to deploy this feature    
         
         # check if user wants another calculation
         # break the while loop if answer is no
